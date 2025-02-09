@@ -1,0 +1,9 @@
+[build]
+  base = "dev-portfolio-client"
+  command = "npm run build"
+  publish = "dev-portfolio-client/build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

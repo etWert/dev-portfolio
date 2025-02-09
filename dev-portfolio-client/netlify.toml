@@ -1,7 +1,7 @@
 [build]
   base = "dev-portfolio-client"
   command = "npm run build"
-  publish = "dev-portfolio-client/build"
+  publish = "build"
 
 [[redirects]]
   from = "/*"

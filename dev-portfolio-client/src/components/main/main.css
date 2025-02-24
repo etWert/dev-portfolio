@@ -1,0 +1,20 @@
+.main-container {
+    height: 100vh; /* גובה המסך */
+    display: flex;
+    align-items: center; /* יישור אנכי למרכז */
+    justify-content: center; /* יישור אופקי למרכז */
+  }
+  
+  .typed-text {
+    font-size: 2.25rem; /* טקסט בגודל 4xl */
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
+  
+  @media (min-width: 768px) {
+    .typed-text {
+      font-size: 3rem; /* טקסט בגודל 5xl במסכים רחבים */
+    }
+  }
+  

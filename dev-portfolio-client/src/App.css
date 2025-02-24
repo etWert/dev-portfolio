@@ -1,3 +1,58 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+    /* צבעים */
+    --primary-bg: #073B4C;
+    /* רקע כהה */
+    --primary-text: #FFFFFF;
+    /* טקסט ראשי (לבן) */
+    --secondary-text: #FFD166;
+    /* טקסט משני (צהוב בהיר) */
+    --highlight: #EF476F;
+    /* הדגשות (ורוד חזק) */
+    --button-bg: #06D6A0;
+    /* רקע כפתורים (טורקיז) */
+    --button-bg-hover: #118AB2;
+    /* רקע כפתורים בהתהפכות (כחול כהה) */
+}
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    font-family: 'Arial', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--primary-text);
+}
+
+p {
+    color: var(--secondary-text);
+}
+
+a {
+    color: var(--highlight);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--button-bg);
+}
+
+button {
+    background-color: var(--button-bg);
+    color: var(--primary-text);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--button-bg-hover);
+}
+
+button:focus {
+    outline: none;
+}

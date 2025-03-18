@@ -3,7 +3,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-container">
-        <img className="logo" src="logo.svg" alt="Logo" />
+        <img className="logo" src="logo-transparent.svg" alt="Logo" />
         <nav className="header-links">
           <a href="#about" className="">אודות</a>
           <a href="#skills" className="">מיומנויות</a>

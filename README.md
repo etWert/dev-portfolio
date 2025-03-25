@@ -1,7 +1,7 @@
 # Imagine. Solve. Achieve.  
 
 <a href="https://dev-portfolio-iti-donat.netlify.app/">
-  <img src="https://github.com/etWert/dev-portfolio/blob/main/assets/signature-cursor.jpg" alt="My Logo" width="200"/>
+  <img src="https://github.com/etWert/dev-portfolio/blob/main/assets/signature.png" alt="My Logo" width="200"/>
 </a>
 
 This project is designed to showcase my portfolio and professional profile with a modern, engaging, and dynamic web experience.

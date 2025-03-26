@@ -1,0 +1,28 @@
+/* footer.css */
+.footer-container {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--primary-bg);
+    border-top: 1px solid var(--secondary-text); /* קו תחתון בגוון הצהוב */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* צל עדין למראה בולט יותר */
+}
+
+.footer-container p {
+    color: var(--secondary-text); /* צבע טקסט בגוון צהוב בהיר */
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-container .separator {
+    margin: 0 10px; /* רווח בין ה- | לקישור */
+}
+
+.github-link,.email-link,.phone-link {
+    color: var(--secondary-text); /* קישור בצבע צהוב בהיר */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.github-link:hover,.email-link:hover,.phone-link:hover {
+    color: var(--highlight); /* בעת ריחוף הקישור יכחיל (ורוד בהיר) */
+}

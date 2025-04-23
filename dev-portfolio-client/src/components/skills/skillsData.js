@@ -1,5 +1,5 @@
 import { FaReact, FaJs, FaPython, FaHtml5, FaCss3Alt, FaGitAlt } from "react-icons/fa";
-import { SiMongodb, SiPostman, SiGithub, SiSpringboot, SiVisualstudio, SiNodedotjs, SiMicrosoftsqlserver, SiPycharm, SiMysql } from "react-icons/si";
+import { SiMongodb, SiPostman, SiGithub, SiSpringboot, SiNodedotjs, SiPycharm, SiMysql } from "react-icons/si";
 import { DiLinux, DiVisualstudio, DiWindows } from "react-icons/di";
 import { FaCogs, FaDatabase } from "react-icons/fa";
 import { BiLogoVisualStudio } from "react-icons/bi";

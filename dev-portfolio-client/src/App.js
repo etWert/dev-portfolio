@@ -4,7 +4,6 @@ import Main from "./components/main/Main";
 import Temp from "./components/temp/Temp";
 import Footer from "./components/footer/Footer";
 import Skills from "./components/skills/Skills";
-import Contact from "./components/contact/Contact";
 import About from "./components/about/About";
 
 const App = () => {
@@ -15,7 +14,6 @@ const App = () => {
             <About />
             <Temp />
             <Skills />
-            <Contact />
             <Footer />
         </>
     );
